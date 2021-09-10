@@ -1,8 +1,8 @@
 # Team-3-Automatic-Potted-Plant-Waterer
 
-Download git on https://git-scm.com/downloads
-
-Open a Git Bash terminal to run the commands below.
+1. Download git on https://git-scm.com/downloads
+2. Create a GitHub accout at https://github.com/
+3. Open a Git Bash terminal to run the commands below.
 
 ### Cloning a Repository
 `git clone https://github.com/Ismael370/Team-3-Automatic-Potted-Plant-Waterer.git`
