@@ -1,7 +1,7 @@
 # Team-3-Automatic-Potted-Plant-Waterer
 
 1. Download git on https://git-scm.com/downloads
-2. Create a GitHub accout at https://github.com/
+2. Create a GitHub account at https://github.com/
 3. Open a Git Bash terminal to run the commands below.
 
 ### Cloning a Repository
