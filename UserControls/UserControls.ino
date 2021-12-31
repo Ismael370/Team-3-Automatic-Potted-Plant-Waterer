@@ -3,7 +3,8 @@
 #include <avr/io.h>
 #include <avr/eeprom.h>
 #include <LiquidCrystal.h>
-LiquidCrystal lcd(6, 7, 8, 9, 10, 11);
+//LiquidCrystal lcd(6, 7, 8, 9, 10, 11);
+LiquidCrystal lcd(5, 6, 13, 12, 11, 10);
 
 void io_init()
 {

@@ -23,7 +23,6 @@ ISR(WDT_vect)
 
 void wdt_init()
 {
-  MCUSR = 0;
   WDTCSR = (1<<WDCE) | (1<<WDE); //Allow changes to timer
   WDTCSR = (1<<WDIE) | (1<<WDP0) | (1<<WDP3); //Set timer for 8 secs
   WDTCSR |= (1<<WDIE); //Enable watchdog interrupts
@@ -47,6 +46,7 @@ int main()
     test();
     
     ADCSRA = 0; //disable adc 
+    MCUSR = 0;
     wdt_init(); //initialize watchdog timer
     
     set_sleep_mode(SLEEP_MODE_PWR_DOWN);

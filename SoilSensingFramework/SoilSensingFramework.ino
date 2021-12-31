@@ -49,7 +49,7 @@ void ADC_init()
   
   //ADC
   ADMUX |= (1 << REFS0); //VCC as VREF
-  //ADMUX |= (1 << MUX0) | (1 << MUX2); //ADC0 or A0/PINC0
+  ADMUX |= (1 << MUX0) | (1 << MUX2); //ADC0 or A0/PINC0
   ADCSRA |= (1 << ADEN); //ADC enable 
   ADCSRA |= (1 << ADPS0) | (1 << ADPS1); //pre-scale 8 conversion takes 500ns
 
